@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    />
+
+    <link
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./main.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button
+            type="button"
+            class="navbar-toggle"
+            data-toggle="collapse"
+            data-target="#myNavbar"
+          >
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#section1">Designs by Cornelius</a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav navbar-right">
+            <li id="menu_item1">
+              <a data-scroll="section1" href="#section1">Home</a>
+            </li>
+            <li id="menu_item2">
+              <a data-scroll="section2" href="#section2">My Skills</a>
+            </li>
+            <li id="menu_item3">
+              <a data-scroll="section3" href="#section3">My Gallery</a>
+            </li>
+            <li id="menu_item4">
+              <a data-scroll="section4" href="#section4">Contact Me</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <section
+      class="container-fluid custom-containers"
+      id="section1"
+      data-anchor="section1"
+    >
+      <h1>Hi There,</h1>
+      <br /><br />
+      <h1>My name is <b>Cornelius</b>, I am :</h1>
+      <br /><br />
+      <h1>
+        <p
+          class="typewrite"
+          data-period="2000"
+          data-type='[ "A Front End Dev.", "Creative.", "Inspired.", "Passionate about development.", "Human." ]'
+        >
+          <span class="wrap"></span>
+        </p>
+      </h1>
+      <span class="scroll-text">
+        Scroll
+        <br />
+        <i class="fa fa-angle-double-down fa-3x" aria-hidden="true"></i>
+      </span>
+    </section>
+
+    <section
+      class="container-fluid custom-containers"
+      id="section2"
+      data-anchor="section2"
+    >
+      <h1>My Skills</h1>
+
+      <span class="scroll-text">
+        Scroll
+        <br />
+        <i class="fa fa-angle-double-down fa-3x" aria-hidden="true"></i>
+      </span>
+    </section>
+
+    <section
+      class="container-fluid custom-containers"
+      id="section3"
+      data-anchor="section3"
+    >
+      <h1>My Gallery</h1>
+
+      <span class="scroll-text">
+        Scroll
+        <br />
+        <i class="fa fa-angle-double-down fa-3x" aria-hidden="true"></i>
+      </span>
+    </section>
+
+    <section
+      class="container-fluid custom-containers"
+      id="section4"
+      data-anchor="section4"
+    >
+      <h1>Contact Me</h1>
+    </section>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="./main.js"></script>
+  </body>
+</html>
